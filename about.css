@@ -103,3 +103,32 @@ body{
     border-radius: 5%;
     width: 390px;
 }
+
+@media (max-width: 1247px) {
+
+    .cabecalho {
+        padding: 1%;
+        justify-content: center;
+
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .apresentacao_conteudo {
+
+        width: auto;
+    }
+
+    .apresentacao_links_link{
+       
+        width: 200px;
+    }
+    .foto {
+        margin-bottom: 0%;
+
+    }
+}
