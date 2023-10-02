@@ -144,7 +144,7 @@ body{
 
 .apresentacao_links_link{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 16px;
     width: 45%;
     text-align: center;
@@ -227,11 +227,6 @@ body{
 
     }
 
-    .apresentacao_conteudo_titulo{
-        
-    
-    }
-
     .apresentacao_conteudo {
 
         width: auto;
@@ -244,5 +239,39 @@ body{
     .foto {
         margin-bottom: 0%;
 
+    }
+
+    .linkedin-icon{
+
+        height: 30px;
+        padding-left: 1px;   
+    }
+
+    .whats-icon{
+
+        height: 30px;
+        padding-right: 2px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 489px) {
+
+    .apresentacao{
+
+        padding-top: 9.5%;
+        gap: 2rem;
+    }
+
+    .apresentacao_links_link{
+
+        width: 80%;
+        justify-content: left;
+        padding-left: 25%;
+    }
+
+    .whats-icon{
+
+        padding-left: 0%;
     }
 }
