@@ -101,7 +101,7 @@ body{
 .foto{
     margin-top: 5%;
     border-radius: 5%;
-    width: 390px;
+    width: 50%;
 }
 
 @media (max-width: 1247px) {
@@ -128,7 +128,7 @@ body{
         width: 200px;
     }
     .foto {
-        margin-bottom: 0%;
+        margin-bottom: 35px;
 
     }
 }
