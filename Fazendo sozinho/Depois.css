@@ -24,9 +24,23 @@ body{
     
 }
 
+.container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container main{
+
+    flex: 1;
+    background-color: transparent;
+    border: 0;
+}
+
 .cabecalho{
 
-    padding: 1% 0% 1% 17%;
+    padding: 1% 0% 1% 10%;
     display: flex;
     gap: 20px;
     background-color: var(--cor-terciaria);  
@@ -35,7 +49,7 @@ body{
 .cabecalho_menu{
 
     display: flex;
-    gap: 80px;
+    gap: 30%;
 
 }
 
@@ -58,13 +72,31 @@ body{
     color:var(--cor-hover);  
 }
 
+.cabecalho_menu_link_antes{
+
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;}
+
+.cabecalho_menu_link_antes:hover{
+
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    color: white; 
+}
+
 .apresentacao{
 
     padding: 4.2% 10%;
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding-bottom: 9.6%;
+    padding-bottom: 2%;
 }
 
 
@@ -105,8 +137,31 @@ body{
 }
 
 .foto{
-    margin-top: 20px;
-    margin-bottom: 84px;
+    margin-right: 90px;
     border-radius: 5%;
-    width: 390px;
+    width: 170px;
+}
+
+.viagem-infinito-imagem{
+
+    width: 160px;
+    position:absolute;
+    border-radius: 5%;
+    margin-right: 30%;
+    margin-bottom: 135px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.viagem-infinito-imagem2{
+
+    width: 160px;
+    position:absolute;
+    border-radius: 5%;
+    margin-right: 4%;
+    margin-bottom: 135px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
